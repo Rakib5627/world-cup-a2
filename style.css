@@ -144,6 +144,9 @@ padding: 5rem;
     margin-top: 3rem;
 }
 .only-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#b60000;
     color: white;
     border-radius: 5px;
@@ -313,7 +316,8 @@ hr{
        width: 90%;
    }
    .only-tab{
-    display:inline;
+    display:block;
+    margin-left: 50%;
    }
    hr{
     width: 85%;
