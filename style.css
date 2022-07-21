@@ -1,3 +1,13 @@
+/* ---Animation--- */
+@keyframes fade-inout{
+    0%{ opacity: 1;}
+    100%{opacity: 0.1;}
+}
+.fade-in-fade-out{
+    animation: fade-inout 1s infinite alternate;
+}
+
+
 /* -font- */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@400;500&family=Poppins:wght@500&family=Roboto&display=swap');
 
@@ -25,7 +35,7 @@ a{
     border-radius: 30px;
 }
 .top-banner{
-    color: white;
+    color: #ff7c7c;
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 1rem 0rem 1rem;
